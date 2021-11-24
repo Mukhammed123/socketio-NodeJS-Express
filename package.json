@@ -1,0 +1,25 @@
+{
+  "name": "node-socketio",
+  "version": "1.0.0",
+  "description": "implement socket.io with node.js (practice)",
+  "main": "server.js",
+  "scripts": {
+    "test": "node ./server.js",
+    "start": "nodemon server.js"
+  },
+  "author": "Mukhammed Musa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.5",
+    "utf-8-validate": "^5.0.7"
+  }
+}
